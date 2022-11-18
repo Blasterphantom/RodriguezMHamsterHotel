@@ -1,0 +1,1070 @@
+.bigContainer {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.navbar-brand2{
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 0;
+}
+
+.navContainer {
+    background-color: #000324;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0;
+}
+
+
+.nav-link {
+    color: white;
+    font-family: Dosis;
+    font-size: 20px;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+}
+
+.navbar {
+    background-color: #000324;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-toggler {
+    background-color: white;
+    color: #000324
+}
+
+
+#navbarNav {
+    justify-content: center;
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url(../assets/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url(../assets/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: SourceSansProBold;
+    src: url(../assets/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+}
+
+#navbarNav.collapse.navbar-collapse.one {
+    width: 100%;
+    height: 110px;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+#navbarNav.collapse.navbar-collapse.two {
+    width: 100%;
+    height: 110px;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.placeholder {
+    width: 38.75px;
+    color: #000324;
+}
+
+.headerBox {
+    background-image: url(../assets/header.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.headerTextBox {
+    background-color: #000324;
+    height: 232px;
+    width: 945px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 80%;
+}
+
+.textHeader {
+    color: #E5FEFF;
+    font-family: Dosis;
+    font-size: 45px;
+    opacity: 100%;
+}
+
+.textHeader2 {
+    color: #E5FEFF;
+    font-family: SourceSansPro;
+    font-size: 16px;
+    opacity: 100%;
+}
+
+.overviewBox{
+    height: 615px;
+    justify-content: center;
+    display: flex;
+}
+
+.hamsterOverviewRow{
+    margin-top: 108px;
+}
+
+.awards{
+    width: 200px;
+    height: 153px;
+}
+
+.hamsterHatPic{
+    width: auto;
+    height:416px
+}
+
+.hamsterHat{
+    /* justify-content: right;
+    display: flex; */
+    width: auto;
+}
+
+.hamsterTextBox{
+    /* justify-content: left;
+    display: flex;
+    flex-direction: column; */
+    width: 753px;
+}
+
+.hamsterStamps{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hamsterText{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.hamsterText1{
+    font-size: 35px;
+    font-family: Dosis;
+}
+
+.hamsterText2{
+    font-size: 16px;
+    font-family: SourceSansPro;
+}
+
+.hamsterText3{
+    font-size: 16px;
+    font-family: SourceSansPro;
+}
+
+/* RoomsContainer code */
+.roomsContainer{
+    height: 738px;
+    display: flex;
+    background-image: url(../assets/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.roomsTextTitle{
+    font-family: Dosis;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin-bottom: 29px;
+}
+
+.card{
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    margin-left: 7px;
+    margin-right: 7px;
+    width: 369px;
+    height: 522px;
+}
+
+.card-img-top{
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    height: 190px;
+}
+
+.card-text{
+    font-size: 16px;
+    font-family: SourceSansPro;
+    color: #1A1B26;
+}
+
+.card-textBold{
+    font-size: 16px;
+    font-family: SourceSansProBold;
+    color: #1A1B26;
+}
+
+.card-title{
+    font-size: 25px;
+    font-family: Dosis;
+    color: #1A1B26;
+}
+
+.btn-primary{
+    position: absolute;
+    bottom: 19px;
+    border-radius: 0;
+    background-color: #004CC7;
+    width: 150px;
+    
+}
+
+.roomsCardsRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.packagePic1{
+    width: 561px;
+    height: auto;
+    order: 1;
+}
+
+.packagesText1{
+    width: 561px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 2;
+}
+
+.packagePic2{
+    width: 561px;
+    height: auto;
+    order: 4;
+}
+
+.packagesText2{
+    width: 561px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 3;
+}
+
+.packagePic3{
+    width: 561px;
+    height: auto;
+    order: 5;
+}
+
+.packagesText3{
+    width: 561px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 6;
+}
+
+.packagesTitle{
+    text-align: center;
+    color: #1A1B26;
+    font-size: 35px;
+    font-family: Dosis;
+    margin-top: 106px;
+    margin-bottom: 20px;
+}
+
+.packagesRow{
+    display: flex;
+    justify-content: center;
+}
+
+.packagesTextTitle{
+    font-size: 25px;
+    font-family: Dosis;
+    color: #1A1B26;
+}
+
+.packagesTextBody{
+    font-size: 16px;
+    font-family: SourceSansPro;
+    color: #1A1B26;
+}
+
+.packagesTextPrice{
+    font-size: 16px;
+    font-family: SourceSansPro;
+    color: #1F51A8;
+}
+
+.packagesContainer{
+    padding-bottom: 95px;
+}
+
+.amenitiesContainer{
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.amenitiesTitle{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: Dosis;
+    padding: 0;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+
+.amenitiesSubTitle{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: SourceSansPro;
+    padding: 0;
+    margin-top: 17px;
+    margin-bottom: 0;
+}
+
+.amenitiesPic1{
+    width: 150px;
+    height: 101px;
+    order: 1;
+}
+
+.amenitiesPic2{
+    width: 150px;
+    height: 104px;
+    order: 2;
+}
+
+.amenitiesPic3{
+    width: 100px;
+    height: 115px;
+    order: 3;
+}
+
+.amenitiesPic4{
+    width: 155px;
+    height: 110px;
+    order: 4;
+}
+
+.amenitiesPicRow{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin-top: 95px;
+}
+
+.amenitiesTextRow{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    padding-bottom: 169px;
+}
+
+.amenitiesPicandText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amenitiesText1{
+    font-family: SourceSansProBold;
+    font-size: 20px;
+    color: white;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    order: 5;
+}
+
+.amenitiesText2{
+    font-family: SourceSansProBold;
+    font-size: 20px;
+    color: white;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    order: 6;
+}
+
+.amenitiesText3{
+    font-family: SourceSansProBold;
+    font-size: 20px;
+    color: white;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    order: 7;
+}
+
+.amenitiesText4{
+    font-family: SourceSansProBold;
+    font-size: 20px;
+    color: white;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    order: 8;
+}
+
+.reserveRoomBox{
+    height: 822px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reserveRoomBox2{
+    background-image: url(../assets/hamsterreserve.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 621px;
+    width: 1137px;
+}
+
+.reserveRoomBar{
+    height: 190px;
+    background-color: #000324;
+}
+
+.reserveRoomTitle{
+    padding-top: 24px;
+}
+
+.reserveRoomTitleText{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: Dosis;
+}
+
+.reserveRoomInputRow{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 14px;
+}
+
+.inputType{
+    font-size: 16px;
+    color: #E5FEFF;
+    font-family: SourceSansPro;
+
+}
+
+#fname{
+    width: 177px;
+    height: 38px;
+}
+
+.checkButton{
+    width: 177px;
+    height: 38px;
+    background-color:  #006EDB;
+    font-size: 20px;
+    font-family: SourceSansProBold;
+    color: white;
+    border-color: #000DC7;
+    border: 1px;
+}
+
+.footerContainer{
+    padding: 0;
+}
+
+.footerBox{
+    height: 300px;
+    background-color: #000324;
+}
+
+.logoFooter{
+    width: 143px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerText1{
+    font-size: 16px;
+    font-family: SourceSansPro;
+    color: #E5FEFF;
+    text-align: center;
+}
+
+.footerText2{
+    font-size: 16px;
+    font-family: SourceSansPro;
+    color: #E5FEFF;
+    text-align: center;
+}
+
+.footerLogoRow{
+    padding-top: 24px;
+}
+
+.footerText1Row{
+    padding-top: 26px;
+    margin: 0;
+}
+
+.footerText2Row{
+    padding-top: 21px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1231px){
+    .overviewBox{
+        height: 615px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .hamsterOverviewRow{
+        display: flex;
+        flex-direction: column;
+        margin-top: 415px;
+    }
+    
+    .awards{
+    }
+    
+    .hamsterHatPic{
+
+    }
+    
+    .hamsterHat{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .hamsterTextBox{
+        /* justify-content: left;
+        display: flex;
+        flex-direction: column; */
+        width: auto;
+   
+    }
+    
+    .hamsterStamps{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    
+    .hamsterText{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    
+    }
+    
+    .hamsterText1{
+        text-align: center;
+    }
+    
+    .hamsterText2{
+        text-align: center;
+    }
+    
+    .hamsterText3{
+        text-align: center;
+    }
+
+    .roomsContainer{
+        margin: 0;
+        margin-top: 350px;
+        padding: 0;
+        display: flex;
+        background-position: center;
+    }
+
+    /* RoomsContainer code */
+.roomsContainer{
+    display: flex;
+    background-image: url(../assets/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.roomsTextTitle{
+    font-family: Dosis;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin-bottom: 29px;
+}
+
+.card{
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    margin-left: 7px;
+    margin-right: 7px;
+    width: 369px;
+    height: 522px;
+    margin-bottom: 20px;
+}
+
+.card-img-top{
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    height: 190px;
+}
+
+.card-text{
+    font-size: 16px;
+    font-family: SourceSansPro;
+    color: #1A1B26;
+}
+
+.card-title{
+    font-size: 25px;
+    font-family: Dosis;
+    color: #1A1B26;
+}
+
+.btnRoom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary{
+    
+}
+
+.roomsCardsRow{
+    display: flex;
+    flex-direction: column;
+}
+
+.roomsTextTitle{
+    margin-top: 20px;
+}
+
+.amenitiesPicRow{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.amenitiesTextRow{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.sideways{
+    display: flex;
+    justify-content: center;
+}
+
+.amenitiesPic1{
+    margin-bottom: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.amenitiesPic2{
+    margin-bottom: 20px;
+}
+
+.amenitiesPic3{
+    margin-bottom: 20px;
+}
+
+.amenitiesPic4{
+    margin-bottom: 20px;
+}
+
+.amenitiesText1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.amenitiesText2{
+    margin-bottom: 40px;
+}
+
+.amenitiesText3{
+    margin-bottom: 40px;
+}
+
+.amenitiesText4{
+    margin-bottom: 40px;
+}
+
+.amenitiesTitle{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.amenitiesSubTitle{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.reserveRoomBar{
+    width: 350px;
+    height: 100%;
+    background-color: #000324;
+}
+
+.reserveRoomInputRow{
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 90px;
+}
+
+#fname{
+    margin-bottom: 30px;
+}
+
+.inputType{
+    width: 150px;
+}
+
+.checkButton{
+    margin-top: 12px;
+}
+
+}
+
+
+@media screen and (max-width: 1121px) {
+    .packagePic1{
+        margin-bottom: 20px;
+    }
+    
+    .packagesText1{
+        margin-bottom: 20px;
+    }
+
+    .packagePic2{
+        order: 3;
+        margin-bottom: 20px;
+    }
+    
+    .packagesText2{
+        order: 4;
+        margin-bottom: 20px;
+    }
+
+    .packagePic3{
+        margin-bottom: 20px;
+    }
+    
+    .packagesText3{
+        margin-bottom: 20px;
+    }
+
+    .packagesTitle{
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .navbar-brand{
+        order: -2;
+        display: flex;
+        align-self: center;
+    }
+
+    .navbar-toggler {
+        order: -1;
+    }
+
+    .placeholder {
+        display: none;
+    }
+
+    .nav-link {
+        margin: 0;
+        padding: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+
+    }
+
+    .navPad {
+        padding-top: 0px;
+        margin: 0;
+    }
+
+    a.nav-link.reserveBox {
+        margin: 0;
+        margin-top: 0;
+        padding: 0px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 15px;
+    }
+
+    a.nav-link.linkOne {
+        padding-bottom: 3px;
+    }
+
+    .navContainer {
+        height: auto;
+    }
+
+    .headerTextBox {
+        background-color: #000324;
+        height: 150px;
+        width: 600px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        opacity: 80%;
+    }
+
+    .textHeader {
+        color: #E5FEFF;
+        font-family: Dosis;
+        font-size: 45px;
+        opacity: 100%;
+    }
+
+    .textHeader2 {
+        color: #E5FEFF;
+        font-family: SourceSansPro;
+        font-size: 16px;
+        opacity: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 479px) {
+
+    .headerTextBox {
+        height: 100px;
+        width: 400px;
+    }
+
+    .textHeader {
+        font-size: 28px;
+    }
+
+    .textHeader2 {
+        font-size: 10px;
+    }
+
+    .headerBox {
+        height: 33vh;
+    }
+
+    .overviewBox{
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .roomsContainer{
+        margin-top: 0;
+        height: auto;
+        
+    }
+    
+    .hamsterOverviewRow{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    
+    .awards{
+        width: 100px;
+        height: 76px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .hamsterHatPic{
+        height: 200px;
+        width: auto;
+        margin-top: 20px;
+    }
+    
+    .hamsterHat{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .hamsterTextBox{
+        /* justify-content: left;
+        display: flex;
+        flex-direction: column; */
+        width: auto;
+   
+    }
+    
+    .hamsterStamps{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+    
+    .hamsterText{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+    
+    .hamsterText1{
+        font-size: 24px;
+    }
+    
+    .hamsterText2{
+        font-size: 11px;
+    }
+    
+    .hamsterText3{
+        font-size: 11px;
+    }
+
+    .roomsTextTitle{
+        margin-top: 20px;
+    }
+
+    .reserveRoomContainer{
+        padding: 0;
+    }
+
+    .reserveRoomBar{
+        width: auto;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .reserveRoomInputRow{
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .reserveRoomBox{
+        width: auto;
+        height: auto;
+    }
+
+    .amenitiesPic1{
+        display: none;
+    }
+    
+    .amenitiesPic2{
+        display: none;
+    }
+    
+    .amenitiesPic3{
+        display: none;
+    }
+    
+    .amenitiesPic4{
+        display: none;
+    }
+
+    .amenitiesText1{
+        width: 200px;
+    }
+    
+    .amenitiesText2{
+        width: 200px;
+    }
+    
+    .amenitiesText3{
+        width: 200px;
+    }
+    
+    .amenitiesText4{
+        width: 200px;
+    }
+
+    .col-2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footerContainer{
+        padding: 0;
+        border-top-style: solid;
+        border-top-width: 0.5px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-top-color: white;
+    }
+
+}
+

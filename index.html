@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hamster Hotel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container-fluid bigContainer">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid navContainer">
+
+                <div class="collapse navbar-collapse one" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <!-- aria-current="page" to go to current page I believe -->
+                            <a class="nav-link linkOne" href="#Overview">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link linkOne" href="#Rooms">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link linkOne" href="#Packages">Packages</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="placeholder" href=""></a>
+                <a class="navbar-brand" href="#"><img class="navbar-brand2" src="./assets/Logo.png" alt="Hamster Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse two" id="navbarNav">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link navPad" href="#Amenities">Amenities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link reserveBox" href="#Reserve">Reserve</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid headerBox">
+            <div class="headerTextBox">
+                <h1 class="textHeader" id="text1">Run on the wheel of luxury</h1>
+                <h2 class="textHeader2" id="text2">Explore everything the beach has to offer in our relaxing resort</h2>
+            </div>
+        </div>
+        <!-- Area under header-615px, picture is 108px from header above -->
+        <div class="container-fluid overviewBox" id="Overview">
+            <div class="row hamsterOverviewRow">
+                <div class="hamsterHat">
+                    <img src="./assets/hamsterhomejpg.jpg" class="hamsterHatPic" alt="">
+                </div>
+                <div class="hamsterTextBox">
+
+                    <div class="hamsterText">
+                        <p class="hamsterText1">Welcome to a hamster's paradise</p>
+                        <p class="hamsterText2">Nestled in the heart of Cavia California, La Petite Maison is a luxury
+                            hotel designed for the small mammal with extravagance in mind. Escape to the warm comforts
+                            of stunning rooms, a relaxing spa, and a pool with a beach side view.</p>
+                        <p class="hamsterText3">Inspired by the warm beauty of the California Coast, we invite you to
+                            enjoy the rich accommodations along with our unmatched luxury. Discover the satisfaction of
+                            indulging in our quality rooms, and thank you for choosing La Petite Maison.</p>
+                    </div>
+                    <div class="hamsterStamps">
+                        <img src="./assets/awardfinest.png" class="awards" alt="">
+                        <img src="./assets/awardsatisfaction.png" class="awards" alt="">
+                        <img src="./assets/awardgenuine.png" class="awards" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid roomsContainer" id="Rooms">
+            <div class="row roomsTextRow">
+                <!-- <div class="col"> -->
+                <h1 class="roomsTextTitle">Our Rooms</h1>
+                <!-- </div> -->
+            </div>
+            <div class="row roomsCardsRow">
+                <div class="card">
+                    <img src="./assets/room1.jpg" class="card-img-top" alt="Room 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Queen Room</h5>
+                        <p class="card-textBold"><b>850 SQ FT room with city view</b></p>
+                        <p class="card-text">• One queen size bed</p>
+                        <p class="card-text">• Seed Bar, fireplace and large balcony</p>
+                        <p class="card-text">• Small kitchen with a refrigerator and stove</p>
+                        <div class="btnRoom">
+                            <a href="#" class="btn btn-primary">Reserve</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/room2.jpg" class="card-img-top" alt="Room 2">
+                    <div class="card-body">
+                        <h5 class="card-title">King Room</h5>
+                        <p class="card-textBold"><b>950 SQ FT room with beach view</b></p>
+                        <p class="card-text">• One king size bed</p>
+                        <p class="card-text">• Seed Bar, fireplace and large balcony</p>
+                        <p class="card-text">• Small kitchen with a refrigerator and stove</p>
+                        <div class="btnRoom">
+                            <a href="#" class="btn btn-primary">Reserve</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/room3.jpg" class="card-img-top" alt="Room 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Beach Side Suite</h5>
+                        <p class="card-textBold"><b>1500 SQ FT Suite with beach view</b></p>
+                        <p class="card-text">• One California king size bed</p>
+                        <p class="card-text">• Second room with fireplace, hot tub, and balcony</p>
+                        <p class="card-text">• Seed Bar and coffee station</p>
+                        <p class="card-text">• Full kitchen with a refrigerator, stove, and island</p>
+                        <div class="btnRoom">
+                            <a href="#" class="btn btn-primary">Reserve</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid packagesContainer">
+            <div class="row packagesRow">
+                <h1 class="packagesTitle" id="Packages">Packeges</h1>
+            </div>
+            <div class="row packagesRow">
+                <!-- <div class="col packegesCol"> -->
+                <img class="packagePic1" src="./assets/hamsterwedding.jpg" alt="Hamster Wedding">
+                <div class="packagesText1">
+                    <h2 class="packagesTextTitle">Beach Wedding package</h2>
+                    <br>
+                    <h3 class="packagesTextPrice">Starting US $1,500.00</h3>
+                    <br>
+                    <h3 class="packagesTextBody">Feel the warmth of the beach as the flames in your hearts ignite during
+                        our romantic beach side wedding. All wedding packages include catering, an open bar, and one
+                        tier wedding cake (9" Vanilla standard cake). A private dinner for your closets family members
+                        and friends will be provided after the ceremony.</h3>
+                </div>
+                <!-- </div> -->
+            </div>
+            <div class="row packagesRow">
+                <!-- <div class="col packagesCol"> -->
+                <div class="packagesText2">
+                    <h2 class="packagesTextTitle">Full Bloom Package</h2>
+                    <br>
+                    <h3 class="packagesTextPrice">Starting US $1,000.00</h3>
+                    <br>
+                    <h3 class="packagesTextBody">Enjoy the shade of our cherry trees as you join us during our spring
+                        time celebration. We invite you to our orchards for cherry, strawberry, and apple picking that
+                        is open all day. We end each evening with fresh, vegetable centric dinners along with a live
+                        show from local musicians.</h3>
+                </div>
+                <img class="packagePic2" src="./assets/hamsterspring.jpg" alt="Hamster Spring">
+                <!-- </div> -->
+            </div>
+            <div class="row packagesRow">
+                <!-- <div class="col packagesCol"> -->
+                <img class="packagePic3" src="./assets/hamsterreserve.jpg" alt="Hamster Reserve">
+                <div class="packagesText3">
+                    <h2 class="packagesTextTitle">Cheese and Seed Tour Package</h2>
+                    <br>
+                    <h3 class="packagesTextPrice">Starting US $1,200.00</h3>
+                    <br>
+                    <h3 class="packagesTextBody">Immerse yourself in the flavors of Cavia with our Cheese and Seed tour.
+                        We consulted with connoisseurs from around the globe to bring you the best flavors that nature
+                        has to offer, and create our cheeses right here at our local creamery. Cheese and seeds are
+                        served all day and nightly spa treatment is provided after dinner.</h3>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+        <div class="container-fluid amenitiesContainer" id="Amenities">
+            <div class="amenitiesBox">
+                <div class="row amenitiesTitleRow">
+                    <h1 class="amenitiesTitle">Amenities</h1>
+                </div>
+                <div class="row amenitiesSubTitleRow">
+                    <h2 class="amenitiesSubTitle">Here at La Petite Maison, we invite you to enjoy our services in hopes
+                        that you have the most relaxing stay we can provide.</h2>
+                </div>
+
+                <div class="sideways">
+                    <div class="row amenitiesPicRow">
+
+                        <div class="col-2 amenitiesPicandText">
+                            <img class="amenitiesPic1" src="./assets/24hour.png" alt="24 Hours">
+                        </div>
+
+                        <div class="col-2 amenitiesPicandText">
+                            <img class="amenitiesPic2" src="./assets/breakfast.png" alt="Breakfast">
+                        </div>
+
+                        <div class="col-2 amenitiesPicandText">
+                            <img class="amenitiesPic3" src="./assets/valet.png" alt="valet">
+                        </div>
+
+                        <div class="col-2 amenitiesPicandText">
+                            <img class="amenitiesPic4" src="./assets/pool.png" alt="Pool">
+                        </div>
+
+                    </div>
+
+                    <div class="row amenitiesTextRow">
+                        <div class="col-2 amenitiesPicandText">
+                            <div class="amenitiesText1">
+                                <h2 class="amenitiesText1">24 Hour Room Service</h2>
+                            </div>
+                        </div>
+
+                        <div class="col-2 amenitiesPicandText">
+                            <div class="amenitiesText2">
+                                <h2 class="amenitiesText2">Complimentary Breakfast</h2>
+                            </div>
+                        </div>
+
+                        <div class="col-2 amenitiesPicandText">
+                            <div class="amenitiesText3">
+                                <h2 class="amenitiesText3">Valet Parking</h2>
+                            </div>
+                        </div>
+
+                        <div class="col-2 amenitiesPicandText">
+                            <div class="amenitiesText4">
+                                <h2 class="amenitiesText4">Beachside Pool</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid reserveRoomContainer" id="Reserve">
+            <div class="reserveRoomBox">
+                <div class="reserveRoomBox2">
+                    <div class="reserveRoomBar">
+                        <div class="row reserveRoomTitle">
+                            <h1 class="reserveRoomTitleText"> Reserve a Room</h1>
+                        </div>
+                        <div class="row reserveRoomInputRow">
+                            <div class="col-2">
+                                <label for="fname" class="inputType">Check-in</label>
+                                <input type="text" id="fname" name="firstname">
+                            </div>
+                            <div class="col-2">
+                                <label for="fname" class="inputType">Check-out</label>
+                                <input type="text" id="fname" name="firstname">
+                            </div>
+                            <div class="col-2">
+                                <label for="fname" class="inputType">Number of Guests</label>
+                                <input type="text" id="fname" name="firstname">
+                            </div>
+                            <div class="col-2">
+                                <label for="fname" class="inputType">Room Type</label>
+                                <input type="text" id="fname" name="firstname">
+                            </div>
+                            <div class="col-2">
+                                <input type="submit" class="checkButton" value="Check Availability">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid footerContainer" id="Contact">
+            <div class="footerBox">
+                <div class="row footerLogoRow">
+                    <img class="logoFooter" src="./assets/Logo.png" alt="Logo">
+                </div>
+                <div class="row footerText1Row">
+                    <h1 class="footerText1">123 Sunflower Seed Rd., Cavia, California 95205</h1>
+                </div>
+                <div class="row footerText2Row">
+                    <h1 class="footerText2">©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
